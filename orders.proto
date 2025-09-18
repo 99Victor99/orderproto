@@ -16,3 +16,10 @@ message Orders{
   string no = 2;
   float price = 3;
 }
+
+message Orders2{
+  // => 相当于go中 结构体的内容
+  int32 id = 1;
+  string no = 2;
+  float price = 3;
+}
